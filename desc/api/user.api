@@ -1,0 +1,27 @@
+syntax = "v1"
+
+info(
+    title: "user module"
+    desc: "用户模块"
+    author: "深海"
+    email: "losttosea@proton.me"
+    version: "1.0"
+)
+
+type (
+    PingResp{
+        Msg string `json:"msg"`
+    }
+)
+
+@server(
+    group: user
+)
+
+service deep {
+    @handler ping
+    get /ping returns (PingResp)
+}
+
+
+

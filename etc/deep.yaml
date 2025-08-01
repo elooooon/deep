@@ -1,0 +1,18 @@
+Name: deep
+Host: localhost
+Port: 5605
+Log:
+  Level: debug
+  Encoding: plain
+  Stat: false
+Middlewares:
+  Log: false
+Database:
+  Host: localhost
+  Port: 5432
+  Username: deep
+  Password: 1.hrqqlkzf.
+  DBName: deep
+  SSLMode: disable
+  Type: postgres
+  MaxOpenConn: 100

@@ -1,0 +1,33 @@
+# 编译和运行生成的文件
+*.exe
+*.so
+*.o
+*.a
+*.dynlib
+*.test
+*.prof
+
+# IDE 和编辑器文件
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# 临时文件和日志
+*.tmp
+*.log
+logs/
+
+# 构建输出目录
+bin/
+build/
+
+# 依赖目录（按需）
+vendor/
+
+# go-zero 生成的临时文件，如果有具体的生成临时文件夹，补充这里
+# 比如：
+# /tmp/
+# *.cache
